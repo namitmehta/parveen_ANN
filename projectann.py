@@ -14,17 +14,10 @@ warnings.filterwarnings('ignore')
 import pandas as pd
 import numpy as np
 
-!pip install tensorflow
-
-!pip install scikit-learn
-
-!pip install tensorboard
 
 import matplotlib.pyplot as plt
 
-!pip install streamlit
 
-!pip install ipykernel
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler,LabelEncoder
