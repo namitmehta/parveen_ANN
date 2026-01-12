@@ -10,8 +10,6 @@ Original file is located at
 import warnings
 warnings.filterwarnings('ignore')
 
-!pip uninstall -y tensorflow
-!pip install tensorflow==2.15.0
 
 import pandas as pd
 import numpy as np
