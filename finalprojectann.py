@@ -18,8 +18,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.callbacks import EarlyStopping
 
-from google.colab import files
-files.upload()   # upload Churn_Modelling.csv
+
 
 data = pd.read_csv("Churn_Modelling.csv")
 data.head()

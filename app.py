@@ -15,8 +15,7 @@ import pickle
 import pandas as pd
 from tensorflow.keras.models import load_model
 
-from google.colab import files
-files.upload()
+
 # upload churn_model.h5, scaler.pkl, gender_encoder.pkl, geo_encoder.pkl, feature_columns.pkl
 
 model = load_model("churn_model.h5")
